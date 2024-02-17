@@ -30,7 +30,8 @@
 
             <div class="container">
                 <h1 class="text-center">Carrello</h1>
-                <div id="carrelloLista" runat="server" class="row row-cols-2 gy-3 mt-5"></div>
+                <div id="carrelloLista" runat="server" class="row row-cols-2 gy-3 mt-5">                    
+                </div>
 
                 <asp:Button ID="SvuotaCarrello" CssClass="btn btn-warning mt-5 text-center" runat="server" Text="Svuota Carrello" OnClick="SvuotaCarrello_Click" />
             </div>
